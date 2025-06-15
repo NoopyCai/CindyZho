@@ -3,19 +3,19 @@ document.addEventListener('DOMContentLoaded', function () {
         {
             title: "專案一：智慧護理互動平台<br>合作單位：台灣透明玻璃公司<br>專案角色：使用者角度分析、可行性評估、概念應用設計",
             description: "此專案以醫護環境為情境， 運用透明玻璃顯示幕結合投影與AI互動技術， 提升護理人員工作效率與病患體驗。 設計中以「人」為核心，整合人-機-環的互動需求， 提出一套直觀、溫馨、便捷的互動平台概念。",
-            mainImage: "/images/Quanzhou_01.png",
+            mainImage: "images/Quanzhou_01.png",
             galleryImages: [
-                "/images/Quanzhou_02.png",
-                "/images/Quanzhou_03.png"
+                "images/Quanzhou_02.png",
+                "images/Quanzhou_03.png"
             ],
             layoutType: "healthcare"
         },
         {
             title: "專案二：四季禮品系列<br>合作單位：泉州海峽兩岸工作坊<br>",
             description: "以中國四季名花為主題，結合花藝文化與禮品設計， 以花瓣造型延伸為茶杯及托盤，發展出一套代表四季平安的茶杯禮盒系列。包裝以抽拉式禮盒結合簍空花型的設計，並結合花卉的線條感做壓花設計。。",
-            mainImage: "/images/gift_01.png",
+            mainImage: "images/gift_01.png",
             conceptImages: [
-                "/images/gift_02.png",
+                "images/gift_02.png",
             ],
             layoutType: "seasons"
         }

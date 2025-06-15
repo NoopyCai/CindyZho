@@ -382,7 +382,7 @@ nav a:hover {
 /* Hero Section 動畫 */
 .hero {
     height: 70vh;
-    background: url('/images/heroImg.png');
+    background: url('../images/heroImg.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -437,7 +437,7 @@ nav a:hover {
     max-width: 300px;
     height: 288px;
     border-radius: 50%;
-    background: url(/images/cindyCho.png);
+    background: url(../images/cindyCho.png);
     background-size: cover;
     flex-shrink: 0;
     border: 1px solid #fff;
