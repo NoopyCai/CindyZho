@@ -1,0 +1,468 @@
+/* Project Cooperation 專用樣式 */
+.project-cooperation {
+    margin-top: 80px;
+}
+
+.project-cooperation h2 {
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+    color: #000;
+    text-align: center;
+}
+
+/* 專案一：智慧護理互動平台 - 圖文並排排版 */
+.layout-healthcare {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: start;
+}
+
+.layout-healthcare .project-main-image {
+    width: 100%;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.layout-healthcare .project-main-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.layout-healthcare .project-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    height: 100%;
+}
+
+.layout-healthcare .project-info-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    height: 100%;
+    justify-content: center;
+}
+
+.layout-healthcare .project-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    line-height: 1.6;
+    margin: 0 0 1rem 0;
+}
+
+.layout-healthcare .project-subtitle {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.layout-healthcare .project-role {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
+
+.layout-healthcare .project-description {
+    color: #000;
+    line-height: 1.8;
+    font-size: 1rem;
+}
+
+.layout-healthcare .project-gallery {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.layout-healthcare .project-gallery .gallery-item {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.layout-healthcare .project-gallery .gallery-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* 專案二：四季禮品系列 - 圖片主導排版 */
+.layout-seasons {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.layout-seasons .project-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+}
+
+.layout-seasons .project-main-image {
+    width: 100%;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.layout-seasons .project-main-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.layout-seasons .project-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.layout-seasons .project-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    line-height: 1.6;
+    margin: 0 0 1rem 0;
+}
+
+.layout-seasons .project-subtitle {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.layout-seasons .project-description {
+    color: #000;
+    line-height: 1.8;
+    font-size: 1rem;
+}
+
+.layout-seasons .project-concept {
+    gap: 2rem;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.layout-seasons .concept-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.layout-seasons .concept-icon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.layout-seasons .concept-plus {
+    font-size: 1.5rem;
+    color: #666;
+    font-weight: bold;
+}
+
+.layout-seasons .concept-gallery {
+    gap: 1rem;
+}
+
+.layout-seasons .concept-gallery .gallery-item {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.layout-seasons .concept-gallery .gallery-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+
+/* Portfolio Showcase 樣式 */
+.portfolio-showcase {
+    display: grid;
+    gap: 6rem;
+    margin: 0 auto;
+}
+
+/* Swiper 樣式 */
+.portfolio-slider-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+}
+
+.portfolioSwiper {
+    padding: 20px 0 60px;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+}
+
+.portfolioSwiper .swiper-slide {
+    height: auto;
+    display: flex;
+    transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transform: scale(0.5);
+    opacity: 0.5;
+    z-index: 1;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.portfolioSwiper .swiper-slide-active {
+    transform: scale(1);
+    opacity: 1;
+    z-index: 10;
+}
+
+.portfolioSwiper .swiper-slide-next,
+.portfolioSwiper .swiper-slide-prev {
+    transform: scale(0.5);
+    opacity: 0.6;
+    z-index: 2;
+}
+
+.portfolioSwiper .swiper-wrapper {
+    display: flex;
+    align-items: stretch;
+    height: auto;
+    padding: 60px 0 100px 0;
+}
+
+.portfolio-card {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.portfolio-card.active {
+    transform: translateY(-40px);
+    box-shadow: 0 20px 40px rgba(69, 71, 72, 0.2);
+}
+
+.card-image {
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.card-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* 分頁點樣式 */
+.swiper-pagination {
+    bottom: 10px !important;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.swiper-pagination-bullet {
+    background: #96A99A !important;
+    opacity: 0.4 !important;
+    width: 12px !important;
+    height: 12px !important;
+    margin: 0 6px !important;
+    transition: all 0.3s ease !important;
+    width: 1.4rem !important;
+    height: 1.4rem !important;
+}
+
+.swiper-pagination-bullet-active {
+    background: #516754 !important;
+    width: 1.8rem !important;
+    height: 1.8rem !important;
+    opacity: 1 !important;
+}
+
+.swiper-pagination-bullet:hover {
+    opacity: 0.8 !important;
+}
+
+/* 詳情面板 */
+.portfolio-detail-panel {
+    background: white;
+    border-radius: 20px;
+    padding: 3rem;
+    position: sticky;
+    top: 100px;
+    height: fit-content;
+    overflow-y: auto;
+}
+
+/* 響應式設計 */
+@media (max-width: 1024px) {
+    .portfolio-showcase {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .portfolioSwiper .swiper-slide {
+        transform: scale(0.8);
+        opacity: 0.6;
+    }
+    
+    .portfolioSwiper .swiper-slide-active {
+        transform: scale(1);
+        opacity: 1;
+    }
+    
+    .portfolioSwiper .swiper-slide-next,
+    .portfolioSwiper .swiper-slide-prev {
+        transform: scale(0.8);
+        opacity: 0.6;
+    }
+
+    .layout-healthcare {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .layout-healthcare .project-gallery {
+        grid-template-columns: 1fr;
+    }
+    
+    .layout-seasons .project-header {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .layout-seasons .project-concept {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .layout-seasons .concept-icons {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .project-cooperation h2 {
+        font-size: 2rem;
+    }
+    
+    .portfolio-showcase {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .portfolio-detail-panel {
+        position: relative;
+        top: 0;
+        max-height: none;
+        padding: 1rem;
+    }
+    
+    .portfolioSwiper {
+        padding: 10px 0 50px;
+    }
+    
+    .portfolio-slider-container {
+        padding: 0 15px;
+    }
+
+    /* 手機版 Swiper 優化 */
+    .swiper-pagination {
+        margin-top: 20px;
+    }
+    
+    .swiper-pagination-bullet {
+        width: 10px !important;
+        height: 10px !important;
+        margin: 0 4px !important;
+    }
+    
+    /* 手機版縮放效果調整 */
+    .portfolioSwiper .swiper-slide {
+        transform: scale(0.9);
+        opacity: 0.7;
+    }
+    
+    .portfolioSwiper .swiper-slide-active {
+        transform: scale(1);
+        opacity: 1;
+    }
+    
+    .portfolioSwiper .swiper-slide-next,
+    .portfolioSwiper .swiper-slide-prev {
+        transform: scale(0.9);
+        opacity: 0.7;
+    }
+    
+    .layout-healthcare .project-title,
+    .layout-seasons .project-title {
+        font-size: 1.6rem;
+    }
+    
+    .layout-healthcare .project-gallery {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .layout-seasons .concept-gallery {
+        grid-template-columns: 1fr;
+    }
+    
+    .layout-seasons .concept-icons {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .layout-seasons .concept-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 1.5rem;
+    }
+}
+
+/* 大螢幕優化 */
+@media (min-width: 1200px) {
+    .portfolioSwiper .swiper-slide {
+        transform: scale(0.7);
+        opacity: 0.4;
+    }
+    
+    .portfolioSwiper .swiper-slide-active {
+        transform: scale(1);
+        opacity: 1;
+    }
+    
+    .portfolioSwiper .swiper-slide-next,
+    .portfolioSwiper .swiper-slide-prev {
+        transform: scale(0.7);
+        opacity: 0.5;
+    }
+}

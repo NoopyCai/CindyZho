@@ -1,0 +1,295 @@
+.work-experience-hero {
+    background-image: url(../images/jecho_banner.png) !important;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+.work-experience-grid{
+    padding: 0 100px;
+}
+.work-experience-grid img{
+    width: 100%;
+}
+.work-experience-img-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 80px 0;
+}
+.work-experience-img-box img{
+    width: 100%;
+    height: 100%;
+}
+.work-experience-content{
+    display: flex;
+    gap: 6rem;
+    padding: 80px;
+}
+.work-experience-content-title{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.work-experience-content-title h3{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.work-experience-content-title p{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.work-experience-content-text{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.work-experience-content-text ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.copywriting-production{
+    display: flex;
+    background-color: #96A99A;
+    padding: 60px 30px;
+    justify-content: center;
+    gap: 3rem;
+}
+.interface-design{
+    display: flex;
+    background-color: #fff;
+    padding: 60px 30px;
+    justify-content: center;
+    gap: 3rem;
+    flex-direction: row-reverse;
+    margin: 80px 0;
+}
+
+.copywriting-production-content{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.interface-design-content{
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.copywriting-production-content h3{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.interface-design-content h3{
+    color: #000;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.copywriting-production-content p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+.interface-design-content p{
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+}
+.interface-design-content ul,
+.copywriting-production-content ul{
+    padding-inline-start: 2rem;
+}
+.interface-design-content img,
+.copywriting-production-img{
+    width: 100%;
+    max-width: 500px;
+}
+.interface-design-content img,
+.copywriting-production-img img{
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+    .work-experience-hero {
+        background-image: url(../images/jecho_banner_mobile.png) !important;
+        height: 32vh;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .features h2 {
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 2rem;
+        padding: 0 20px;
+    }
+    
+    .work-experience-grid {
+        padding: 0 20px;
+    }
+    
+    .work-experience-img-box {
+        flex-direction: column;
+        padding: 40px 20px;
+        gap: 1.5rem;
+    }
+    
+    .work-experience-img-box-item {
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    .work-experience-content {
+        flex-direction: column;
+        padding: 40px 20px;
+        gap: 2rem;
+    }
+    
+    .work-experience-content-title h3 {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+    
+    .work-experience-content-title p {
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+    .work-experience-content-text {
+        gap: 1rem;
+    }
+    
+    .work-experience-content-text p {
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+    
+    .work-experience-content-text ul {
+        gap: 0.8rem;
+        padding-left: 1rem;
+    }
+    
+    .work-experience-content-text li {
+        font-size: 0.9rem;
+        line-height: 1.5;
+    }
+    
+    .copywriting-production {
+        flex-direction: column;
+        padding: 40px 20px;
+        gap: 2rem;
+        text-align: center;
+    }
+    
+    .interface-design {
+        flex-direction: column;
+        padding: 40px 20px;
+        gap: 2rem;
+        margin: 40px 0;
+        text-align: center;
+    }
+    
+    .copywriting-production-content h3,
+    .interface-design-content h3 {
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+    }
+    
+    .copywriting-production-content p,
+    .interface-design-content p {
+        font-size: 0.95rem;
+        line-height: 1.6;
+        margin-bottom: 1rem;
+    }
+    
+    .copywriting-production-content ul,
+    .interface-design-content ul {
+        text-align: left;
+        padding-inline-start: 1.5rem;
+        margin-top: 1rem;
+    }
+    
+    .copywriting-production-content li,
+    .interface-design-content li {
+        font-size: 0.9rem;
+        line-height: 1.5;
+        margin-bottom: 0.8rem;
+    }
+    
+    .copywriting-production-img,
+    .interface-design-content img {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    
+    .copywriting-production-img img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+}
+
+/* 更小螢幕優化 - 480px 以下 */
+@media (max-width: 480px) {
+    .work-experience-hero {
+        height: 23vh;
+    }
+    
+    .features h2 {
+        font-size: 1.8rem;
+        padding: 0 15px;
+    }
+    
+    .work-experience-grid {
+        padding: 0 15px;
+    }
+    
+    .work-experience-img-box {
+        padding: 30px 15px;
+        gap: 1rem;
+    }
+    
+    .work-experience-content {
+        padding: 30px 15px;
+        gap: 1.5rem;
+    }
+    
+    .work-experience-content-title h3 {
+        font-size: 1.4rem;
+    }
+    
+    .work-experience-content-title p {
+        font-size: 0.9rem;
+    }
+    
+    .copywriting-production {
+        padding: 30px 15px;
+        gap: 1.5rem;
+    }
+    
+    .interface-design {
+        padding: 30px 15px;
+        gap: 1.5rem;
+        margin: 30px 0;
+    }
+    
+    .copywriting-production-content h3,
+    .interface-design-content h3 {
+        font-size: 1.4rem;
+    }
+    
+    .copywriting-production-content p,
+    .interface-design-content p {
+        font-size: 0.9rem;
+    }
+    
+    .copywriting-production-content li,
+    .interface-design-content li {
+        font-size: 0.85rem;
+    }
+}
