@@ -425,6 +425,7 @@ nav a:hover {
     padding: 80px 70px 85px 50px;
     border-radius: 12px;
     transition: all 0.3s ease;
+    margin: 0 100px;
 }
 
 .profile-content:hover {
@@ -1096,8 +1097,6 @@ footer:hover {
     }
 }
 
-/* 響應式設計 - 平板和手機 */
-
 /* 平板裝置 (768px - 1024px) */
 @media (max-width: 1024px) {
     .container {
@@ -1108,6 +1107,10 @@ footer:hover {
     /* Header 調整 */
     header {
         padding: 20px 0;
+    }
+
+    .profile-content{
+        margin: 0;
     }
 
     .header-content {
